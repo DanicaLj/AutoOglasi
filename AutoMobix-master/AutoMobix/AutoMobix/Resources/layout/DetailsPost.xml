@@ -1,0 +1,55 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDeletePost"
+        android:text="Delete Post"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEditPost"
+        android:text="Edit Post"/>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOpenFilter"
+        android:text="Open Filter"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="320px"
+        android:id="@+id/lstDetailsPost"/>
+    <TextView
+        android:text="Comments"
+        android:background="#2579BF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:id="@+id/lstComment"/>
+    <TextView
+        android:text="Add Comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtComment"/>
+    <Button
+        android:id="@+id/btnComment"
+        android:text="Add Comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
